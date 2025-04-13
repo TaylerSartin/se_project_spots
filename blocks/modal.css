@@ -151,6 +151,10 @@
     right: 12px;
   }
 
+  .modal__close-button_type_preview {
+    top: -38px;
+  }
+
   .modal__title {
     font-size: 20px;
     margin: 10px 0 34px;
@@ -166,5 +170,9 @@
 
   .modal__submit-button {
     width: 100%;
+  }
+
+  .modal__image {
+    max-width: 90vw;
   }
 }
