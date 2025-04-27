@@ -111,6 +111,18 @@
   cursor: pointer;
 }
 
+.modal__input_type_error {
+  border: 1px solid rgba(255, 0, 0, 0.6);
+}
+
+.modal__error {
+  display: block;
+  color: #ff0000;
+  opacity: 0.7;
+  font-size: 16px;
+  line-height: 1.1;
+}
+
 .modal__caption {
   background-color: #212121;
   color: #fff;
@@ -132,6 +144,11 @@
   border-radius: 8px;
 }
 
+.modal__submit-button_disabled {
+  background-color: #212121;
+  opacity: 0.5;
+}
+
 .modal__submit-button:hover {
   background-color: rgba(33, 33, 33, 0.8);
   cursor: pointer;
@@ -143,7 +160,7 @@
   }
 
   .modal__container {
-    padding: 0;
+    padding: 12px;
   }
 
   .modal__close-button {
